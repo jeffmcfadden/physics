@@ -32,4 +32,5 @@ module Physics
     def self.distance_traveled_given_final_velocity_and_acceleration_over_time( final_velocity, acceleration, time )
       distance_traveled = ( velocity * time ) - ( ( acceleration * ( time ** 2 ) ) / 2 )
     end
+  end
 end
